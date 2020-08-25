@@ -1,0 +1,5 @@
+Version Control
+What is version Control Git?
+Today, our topic is Version control in git hub. Version control system are a category of software tools that help team manage changes to source code over time. It keeps track of every modification to the code in a special kind of database. If a mistake is made, developers can track back the clock and compare earlier versions of code to help fix the mistake while minimizing distribution to all the team members.
+ This is a summary about Version Control in Git. Hope you got it and learned the importance of version control in Git.
+Thank YOU!  
