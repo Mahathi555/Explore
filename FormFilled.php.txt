@@ -1,0 +1,11 @@
+<? php
+
+$FirstName = $_POST['fn']
+$LastName = $_POST['ln']
+$city = $_POST['ct']
+$Number = $_POST['num']
+echo "Hi <br>"$FirstName;
+echo "Your last name is <br>" $LastName;
+echo "You mobile number is <br>" $Number;
+echo "And you are from <br>" $city;
+?>
