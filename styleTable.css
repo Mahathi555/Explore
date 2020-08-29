@@ -1,0 +1,35 @@
+h1
+{
+font-family:serif;
+font-style:italic;
+text-align:center;
+color:black;
+font-weight:800;
+font-size:50px;
+}
+.box
+{
+margin-left:500px;
+margin-right:50px;
+margin-top:50px;
+margin-buttom:50px;
+border:10px solid black;
+padding-top:10px;
+padding-buttom:10px;
+padding-left:10px;
+padding-right:250px;
+
+width:5px;
+heigth:100px;
+text-align:center;
+outline-style:inset;
+outline-color:skyblue;
+outline-width:20px;
+
+
+}
+th,td{
+border:2px solid black;
+
+padding:15px;
+}
