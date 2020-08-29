@@ -1,0 +1,52 @@
+h1
+{
+text-align:center;
+color:blue;
+font-family:Thoma;
+font-weight:750;
+font-size:40px;
+font-style:italic;
+}
+a
+{
+border:1px;
+padding:10px;
+border-radius:15px;
+color:blue;
+font-size:40px;
+list-style:square;
+}
+a:hover
+{
+color:red;
+}
+a:active
+{
+color:green;
+}
+p
+{
+font-size:40px;
+background-color:#333333;
+color:white;
+width:80%;
+margin:auto;
+border-top:5px blue solid; 
+border-left:5px blue solid;
+border-right:5px blue solid;
+border-bottom:5px blue solid;
+padding:40px;
+margin-right:60px;
+margin-left:60px;
+margin-top:60px;
+text-aligin:center;
+}
+.Div1
+{
+text-align:center;
+color:black;
+font-family:Thoma;
+font-weight:600;
+font-size:30px;
+font-style:italic;
+}
