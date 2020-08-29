@@ -1,0 +1,21 @@
+p{
+width:850px;
+height:350px;
+border:5px solid red;
+margin-top:50px;
+margin-buttom:50px;
+margin-right:200px;
+margin-left:200px;
+
+padding:50px 50px 50px 50px;
+
+background-image:url('christmas.jpeg');
+}
+.box
+{
+font-family:italic;
+font-size:20px;
+position:relative;
+left:650px;
+top:350px;
+}
