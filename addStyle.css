@@ -1,0 +1,37 @@
+body
+{
+background-color:#f4f4f4;
+color:black;
+font-family:Arial;
+font-size:18px;
+line-height:1.8em;
+
+}
+.Div1
+{
+background-color:#333333;
+color:white;
+width:80%;
+margin:auto;
+border-top:5px blue solid; 
+border-left:5px blue solid;
+border-right:5px blue solid;
+border-bottom:5px blue solid;
+padding:40px;
+margin-right:60px;
+margin-left:60px;
+margin-top:60px;
+text-aligin:center;
+}
+
+h1
+{
+text-align:center;
+color:blue;
+font-family:Thoma;
+font-weight:750;
+font-style:italic;
+
+
+}
+
