@@ -1,0 +1,51 @@
+body
+{
+background-color:purple;
+}
+h1
+{
+text-align:center;
+color:black;
+
+font-weight:750;
+font-size:40px;
+font-style:italic;
+}
+.Div1 li:nth-child(odd)
+{
+background-color:yellow;
+color:white;
+width:150px;
+text-aligin:center;
+font-style:italic;
+font-size:20px;
+list-style-type:square;
+}
+.Div1 li:nth-child(even)
+{
+background-color:red;
+color:white;
+width:150px;
+text-aligin:center;
+font-style:italic;
+font-size:20px;
+border:1px black solid;
+list-style-type:square;
+}
+.Div2 li
+{
+background-color:black;
+font-style:italic;
+color:white;
+width:100px;
+text-aligin:center;
+font-size:20px;
+border:1px black solid;
+padding:5px;
+}
+.Div3
+{
+
+border:5px black solid;
+text-aligin:center;
+}
