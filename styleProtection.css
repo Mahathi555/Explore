@@ -1,0 +1,62 @@
+h1
+{
+font-size:60px;
+color:red;
+text-align:center;
+}
+h2{
+text-align:center;
+}
+body
+{
+border-top:6px solid black;
+border-left:6px solid black;
+border-right:6px solid black;
+border-bottom:6px solid black;
+
+padding:10px;
+margin:20px;
+}
+p{
+padding :5px;
+border-top:3px solid black;
+border-left:3px solid black;
+border-right:3px solid black;
+border-bottom:3px solid black;
+color:red;
+background-color:yellow;
+width:25%;
+text-align:center;
+margin:auto;
+}
+.Div1{
+
+padding :5px;
+border-top:3px solid black;
+border-left:3px solid black;
+border-right:3px solid black;
+border-bottom:3px solid black;
+color:white;
+background-color:blue;
+width:25%;
+text-align:center;
+margin:auto;
+margin-bottom:20px;
+}
+a{
+color:black;
+
+}
+a.hover
+{
+color:red;
+}
+a.active{
+color:green;
+}
+.Div2{
+float:right;
+font-size:20px;
+line-height:30px;
+margin-up:80%;
+}
