@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Accuracy</title>
+<script>
+function Sum()
+{
+let arr=document.getElementsByClassName('num');
+let tot=0,avg=0;
+for(let i=0;i<arr.length;i++)
+{
+if(parseInt(arr[i].value)){
+tot=tot+parseInt(arr[i].value);
+}
+avg=tot/arr.length;
+}
+ 
+form1.tot.value=tot;
+form1.avg1.value=avg;
+console.log(tot);
+}
+</script>
+</head>
+<body>
+<h1>Average Marks of Students</h1>
+<form name=form1>
+<table border="1">
+<tr >
+<th width="25">Subject</th>
+<th width="25">Marks</th>
+
+</tr>
+
+<tr>
+<td>Telugu</td>
+<td><input type="number" class="num" required></td>
+
+</tr>
+<tr>
+<td>Hindi</td>
+<td><input type="number"  class="num" required></td>
+
+</tr>
+<tr>
+<td>English</td>
+<td><input type="number"  class="num"  required></td>
+
+</tr>
+<tr>
+<td>Maths</td>
+<td><input type="number"  class="num" required></td>
+
+</tr>
+<tr>
+<td>Science</td>
+<td><input type="number"   class="num" required></td>
+
+</tr>
+<tr>
+<td>Social</td>
+<td><input  type="number"  class="num" required></td>
+
+</tr>
+
+<tr>
+<td>Total</td>
+<td><input type="text" name=tot  value=""></td>
+</tr>
+<tr>
+<td>Average</td>
+<td><input type="text" name=avg1  value=""></td>
+</tr>
+
+
+<tr>
+<td>
+<input type="button" name="butt" value=Total-And-Avg onclick="Sum()">
+</td>
+
+</tr>
+</div>
+</table>
+</form>
+</div>
+</body>
+
+</html>
+
