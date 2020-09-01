@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Function Call</title>
+<script>
+function Calculations(m,n){
+
+let a=parseInt(m);
+let b=parseInt(n);
+let add=a+b;
+let sub=a-b;
+let mul=a*b;
+let div=parseFloat(a/b);
+let mod=parseFloat(a%b);
+form1.txt1.value=add;
+form1.txt2.value=sub;
+form1.txt3.value=mul;
+form1.txt4.value=div;
+form1.txt5.value=mod;
+
+
+}
+/*function Cal()
+{
+let a=getElementById("num1");
+let b=getElementById("num2");
+function Calculations(a,b);
+}*/
+</script>
+</head>
+<body>
+<form name=form1>
+<table>
+<tr>
+<td>Num1</td>
+<td><input type="text" name=num1></td>
+</tr>
+<tr>
+<td>Num2</td>
+<td><input type="text" name=num2></td>
+</tr>
+<tr>
+<td>Addition</td>
+<td><input type="text" name=txt1></td>
+</tr>
+<tr>
+<td>Subtraction</td>
+<td><input type="text" name=txt2></td>
+</tr>
+<tr>
+<td>Multiplication</td>
+<td><input type="text" name=txt3></td>
+</tr>
+<tr>
+<td>Division</td>
+<td><input type="text" name=txt4></td>
+</tr>
+<tr>
+<td>Module</td>
+<td><input type="text" name=txt5></td>
+</tr>
+<tr>
+<input type=button value=Calculate onclick="Calculations(num1.value,num2.value)">
+</tr>
+</table>
+</form>
+</body>
+</html>
