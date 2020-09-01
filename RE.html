@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Name Attribute</title>
+<script>
+function NameValidation(){
+let a=document.getElementById("fn");
+
+if(a.value == ""){
+alert(" Please Enter your Name Before Submition");
+}
+if(!(isNaN(a.value))){
+alert("Name folder won't allow digits");
+}
+}
+</script>
+</head>
+<body>
+<h1 style="text-align:center;">Fill up the Form</h1>
+<form name=form1>
+<table>
+
+<tr>
+<td>
+First Name:
+</td>
+<td>
+<input type ="text" placeholder="Name" id="fn">
+</td>
+</tr>
+
+<tr>
+<td>
+Phone Number:
+</td>
+<td>
+<input type ="number" placeholder="Number Linked to mail" name="">
+</td>
+
+</tr>
+<tr>
+<td>
+Gender:
+</td>
+<td>
+<input type="radio" name="Gender">Male
+<input type="radio" name="Gender">Female
+</td>
+</tr>
+<tr>
+<td>
+<button onclick="NameValidation()">submit</button>
+</td>
+</tr>
+
+</form>
+</table>
+
+</body>
+</html> 
