@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Validation</title>
+</head>
+<body>
+<h1 style="text-align:center;">Fill Up The Form</h1>
+<form name="Form1" method="post">
+<table>
+
+<tr>
+<td>
+Name:
+</td>
+<td>
+<input type ="text" value="" placeholder="Name" id="fn">
+</td>
+</tr>
+
+
+<tr>
+<td>
+Phone Number:
+</td>
+<td>
+<input type ="text"  value="" id="phno">
+</td>
+
+</tr>
+<tr>
+<td>
+Gender:
+</td>
+<td>
+<input type="radio" name="Gender">Male
+<input type="radio" name="Gender">Female
+</td>
+</tr>
+ <tr>
+<td>
+
+Subjects you are intrested In:
+</td>
+
+<td>
+ 
+<input type ="checkbox" name="cb"  onclick="return mycheck()">IOT
+<input type ="checkbox" name="cb" onclick="return mycheck()">Machine Learning 
+<input type ="checkbox" name="cb"  onclick="return mycheck()">Data Science
+<input type ="checkbox" name="cb" onclick="return mycheck()">AI 
+
+
+</td>
+
+</tr> 
+
+<tr>
+<td>
+<button onclick="NameValidation()" >submit</button>
+</td>
+</tr>
+
+
+</table>
+</form>
+<script src="validate.js"></script>
+</body>
+
+</html> 
