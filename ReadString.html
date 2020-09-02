@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>String</title>
+<script>
+function describe()
+{
+let a=document.getElementById("txt").value;
+let b=a.split(" ");
+for(let i=0;i<b.length-1;i++){
+if(i==4)
+
+document.getElementById("txt1").innerHTML="Your"+(i+1)+"th word is:"+b[i]+"<br />";
+if(i==6)
+
+document.getElementById("txt2").innerHTML="Your"+(i+1)+"th word is:"+b[i]+"<br />";
+if(i==9)
+
+document.getElementById("txt3").innerHTML="Your"+(i+1)+"th word is:"+b[i]+"<br />";
+
+}
+}
+</script>
+</head>
+<body>
+
+<p>Describe about HTML</p>
+<table>
+<tr>
+<td>Description:</td>
+<td><input type="text" id="txt"></td>
+<td>
+<button onclick="describe()">submit</button>
+</td>
+<tr><td>
+<p id="txt1">
+<input type="text">
+</p>
+</td>
+</tr>
+<tr><td>
+<p id="txt2">
+<input type="text">
+</p>
+</td>
+</tr>
+<tr><td>
+<p id="txt3">
+<input type="text">
+</p>
+</td>
+</tr>
+</table>
+</body>
+</html>
